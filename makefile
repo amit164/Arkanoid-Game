@@ -3,7 +3,7 @@ compile: bin
 	javac -d bin -cp biuoop-1.4.jar @out.txt
 	
 jar:
-	jar cfm arkanoidGame.jar manifest.mf -C bin . -C resources .
+	jar cfm arkanoidGame.jar MANIFEST.MF -C bin . -C resources .
 
 run:
 	java -cp biuoop-1.4.jar:bin:resources arkanoidGame
