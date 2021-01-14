@@ -25,6 +25,7 @@ As part of the Intro to OOP course we were givend a task to implement the classi
     ```
 2. Write those commands in the terminal:
     ```
-    $ make compile
+    $ make 
+    $ make jar
     $ make run
     ```
