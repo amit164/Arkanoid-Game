@@ -1,7 +1,7 @@
 # Arkanoid Game
  Arkanoid game - course project Introduction to OOP
 1. [General](#General)  
-2. [Dependencies] (#Dependencies)
+2. [Dependencies] (##dependencies)
 2. [Installation:](#Installation)
 
 
