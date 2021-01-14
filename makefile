@@ -1,8 +1,12 @@
 compile: bin
-	javac -d bin -cp biuoop-1.4.jar src/*.java
+	find src | grep .java > out.txt
+	javac -d bin -cp biuoop-1.4.jar @out.txt
+	
 jar:
-	jar cfm0 ArknoidGame.jar MANIFEST.MF -C bin .
+	jar cfm arkanoidGame.jar manifest.mf -C bin . -C resources .
+
 run:
-	java -jar ArknoidGame.jar
+	java -cp biuoop-1.4.jar:bin:resources arkanoidGame
+
 bin:
 	mkdir bin
