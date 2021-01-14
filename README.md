@@ -21,7 +21,7 @@ As part of the Intro to OOP course we were givend a task to implement the classi
 ## Installation:
 1. Clone the repository:  
     ```
-    $ git clone https://github.com/eyalcohen308/Arkanoid.git
+    $ git clone https://github.com/amit164/Arkanoid-Game.git
     ```
 2. Write those commands in the terminal:
     ```
